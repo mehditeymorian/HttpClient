@@ -26,7 +26,7 @@ public class Request {
      * @return structure of Http message
      */
     String get() {
-        String body = String.join(LINE_SEPARATOR , bodyParams);
+        String body = String.join("&" , bodyParams);
         if (!body.isEmpty()) body += LINE_SEPARATOR;
 
         return getRequestLine() +
