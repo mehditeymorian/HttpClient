@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HttpClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HttpClient_jar</output-path>
+    <root id="archive" name="HttpClient.main.jar">
+      <element id="module-output" name="HttpClient.main" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/help.txt" />
+    </root>
+  </artifact>
+</component>

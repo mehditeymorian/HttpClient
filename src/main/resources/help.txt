@@ -1,0 +1,9 @@
+Http Client CLI Help Manual
+===========================
+exit                        use to exit the program.
+
+set-student-id-header       use to set student Id header for
+                            every subsequent request.
+
+remove-student-id-header    if student Id header is set before,
+                            remove it for every subsequent request.
